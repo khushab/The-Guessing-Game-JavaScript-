@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+nav {
+  background-color: rgb(71, 70, 70);
+  color: rgba(255, 255, 255, 0.863);
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  margin-left: 10px;
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .container h2 {
+  font-size: 2.3rem;
+  color: rgb(252, 181, 50);
+}
+
+.input {
+  font-size: 1.7rem;
+  padding: 8px;
+  margin: 20px;
+  height: 60px;
+  width: 450px;
+  border-radius: 5px;
+}
+
+/* .result{
+
+} */
+
+.yellow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 8px;
+  margin: 10px;
+  height: 55px;
+  width: 400px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: rgb(255, 220, 156);
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 8px;
+  margin: 10px;
+  height: 55px;
+  width: 400px;
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: rgb(151, 255, 151);
+  text-align: center;
+}
+
+.buttons {
+  margin: 10px;
+}
+
+.btn__check {
+  background-color: rgb(71, 70, 70);
+  color: rgba(255, 255, 255, 0.863);
+  padding: 5px;
+  width: 170px;
+  height: 50px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn__restart {
+  background-color: rgba(255, 255, 255, 0.863);
+  color: rgb(71, 70, 70);
+  padding: 5px;
+  width: 170px;
+  height: 50px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 8px;
+  margin: 10px;
+  height: 55px;
+  width: 400px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgb(255, 152, 152);
+  text-align: center;
+} */
+.red {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  list-style: none;
+  display: block;
+  padding: 8px;
+  margin: 5px;
+  height: 55px;
+  width: 400px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+}
